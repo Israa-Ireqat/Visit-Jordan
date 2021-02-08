@@ -1,5 +1,5 @@
 var order =prompt ("What Do you  prefer a Hotel or a Motel?");
-While (order !== "Hotel"&& order !== "Motel")
+while (order !== "Hotel" && order !== "Motel")
 {
     order= prompt ("What Do you prefer a Hotel or Motel?")
 }
@@ -14,9 +14,8 @@ choice ='<img src="Motel.jpg"/>';
 }
 var numOfbeds =prompt ("How many beds do you want?");
 var result ="";
-for (var i =0;i<numOfbeds;i++)
+for (var i =0 ;i<numOfbeds ;i++)
 {
-    result =result+choice;
-
+    result=result+choice;
 }
-document.write (result)
+document.write (result);
