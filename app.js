@@ -18,4 +18,9 @@ for (var i =0 ;i<numOfbeds ;i++)
 {
     result=result+choice;
 }
+function printInput (orderf,numOfbedsf){
+    document.write ('Your choice is :'+ orderf +' room Consists of '+numOfbedsf+ 'beds');
+}
+printInput (order,numOfbeds)
 document.write (result);
+
