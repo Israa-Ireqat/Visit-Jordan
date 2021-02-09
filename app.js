@@ -12,11 +12,13 @@ else if (order =="Motel")
 {
 choice ='<img src="Motel.jpg"/>';
 }
+document.write(choice)
+var bed = '<img src="bed.jpg"/>'
 var numOfbeds =prompt ("How many beds do you want?");
 var result ="";
 for (var i =0 ;i<numOfbeds ;i++)
 {
-    result=result+choice;
+    result=result+bed;
 }
 function printInput (orderf,numOfbedsf){
     document.write ('Your choice is :'+ orderf +' room Consists of '+numOfbedsf+ 'beds');
