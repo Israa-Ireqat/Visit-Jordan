@@ -1,26 +1,30 @@
 html {
     background-color: cornsilk;
+    align-content:stretch;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .img1 {
 float:left;
-height:50px;
-width:100px;
+height:60px;
+width:120px;
 }
 
 .subject {
    align-content: center;
 }
 footer {
- line-height: 100px;
- background-color:beige;  
+ line-height: 20px;
+ background-color:rgb(79, 15, 226);  
 }
  .par {
     align-content: center; 
     color: cadetblue;
  }
  .imgs {
-    display:inline;
-    width:500px; 
+    width:600px;
+    height:600px; 
+    align-content: center;
  }
  .navi {
      
